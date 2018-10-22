@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 from sqlalchemy.pool import NullPool
 
 
-SQL_ALCHEMY_CONN = 'sqlite:////tmp/tmp.db'
+SQL_ALCHEMY_CONN = 'sqlite:////tmp/sqlalch_base_project.db'
 
 
 engine = None
